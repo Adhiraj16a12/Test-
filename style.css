@@ -1,0 +1,45 @@
+.hi{
+    display:flex;
+    align-items: center ;
+    justify-content: center;
+    color : blue;
+    
+
+}
+
+
+
+.header{
+    background-color:aqua;
+    display: flex;
+    justify-content :space-between;
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-direction: row;    
+    flex-wrap: wrap;
+   align-content: stretch;
+}
+.Logout{
+    margin-left: auto;
+}
+.search{
+    margin-right: auto;
+}
+.Home{
+margin-right: auto;
+
+}
+.grid{
+    display: flex;
+    justify-content: center;
+    flex:wrap;
+    flex-direction:row;
+    align-content: space-between;
+}
+body{
+background-color: aquamarine;    
+}
